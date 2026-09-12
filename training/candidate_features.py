@@ -1,19 +1,4 @@
-from data_loader import build_dataset
-
-
-CANDIDATE_FEATURES = [
-    "RIDAGEYR",
-    "RIAGENDR",
-    "RIDRETH3",
-    "RIDRETH1",
-    "DMDEDUC2",
-    "DMDEDUC3",
-    "DMDMARTL",
-    "INDFMPIR",
-    "DMDCITZN",
-    "DMDYRSUS",
-    "DMDHHSIZ",
-]
+from data_loader import build_dataset, CANDIDATE_FEATURES
 
 
 def main():
