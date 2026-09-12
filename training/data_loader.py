@@ -3,9 +3,10 @@ import pandas as pd
 from pathlib import Path
 
 
-DEMO_DIR = Path("data/raw/nhanes")
-MORTALITY_DIR = Path("data/raw/mortality")
-PROCESSED_DIR = Path("data/processed")
+REPOSITORY_ROOT = Path(__file__).resolve().parent.parent
+DEMO_DIR = REPOSITORY_ROOT / "data/raw/nhanes"
+MORTALITY_DIR = REPOSITORY_ROOT / "data/raw/mortality"
+PROCESSED_DIR = REPOSITORY_ROOT / "data/processed"
 PROCESSED_PATH = PROCESSED_DIR / "demographics_mortality_clean.csv"
 
 
